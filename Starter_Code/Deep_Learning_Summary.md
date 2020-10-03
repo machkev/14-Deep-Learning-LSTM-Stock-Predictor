@@ -1,6 +1,8 @@
- # Build, train and evaluate custom LSTM RNNs
+ # Summary of Deep Learning Homework
+ ## Build, train and evaluate custom LSTM RNNs
  ## Overview
- In this project we will use deep learning recurrent neural networks to model bitcoin closing prices. One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price. 
+ 
+In this project we will use deep learning recurrent neural networks to model bitcoin closing prices. One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price. 
 
 The [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/) analyzes emotions and sentiments from different sources to produce a daily FNG value for cryptocurrencies. 
 
@@ -79,7 +81,7 @@ Once the building, training, and testing proceedures have been successfully comp
 
 ### Which model has a lower loss?
 
-The LSTM Stock Predictor Using Closing Prices has a lower loss of 0.0156 compared to 0.1383 using the LSTM Stock Predictor Using Fear and Greed Index. In addition, using a smaller window size of 1 for the LSTM Stock Predictor Using Closing Prices has even a lower loss of 0.0049
+The LSTM Stock Predictor Using Closing Prices has a lower loss of 0.0156 compared to 0.1383 using the LSTM Stock Predictor Using Fear and Greed Index. In addition, using a smaller window size of 1 for the LSTM Stock Predictor Using Closing Prices has even a lower loss of 0.0049 compared with the larger window size 10.
 
 ### Which model tracks the actual values better over time?
 
@@ -91,11 +93,7 @@ The LSTM Stock Predictor Using Closing Prices tracks the actual values better ov
 A smaller window size of 1 works best for the LSTM Stock Predictor Using Closing Prices as the model has a lower loss 
 and tracks the actual values much closer. See chart below:
 
-![closing_prices_window_1](/tree/master/images/colsoing_prices_window_1.png)
-
-![closing_prices_window_10](/tree/master/images/colsoing_prices_window_10.png)
-
-![fng_chart](/tree/master/images/fng_chart.png)
+![LSTM_CP_Window-1.png](attachment:1e78e588-3c45-4d77-b7fd-5bdebeb91696.png)![LSTM_CP_Window-10.png](attachment:528f8396-3696-4650-b7ad-66a5cd3ab2da.png)
 
 
 
