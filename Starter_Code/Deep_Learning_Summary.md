@@ -79,7 +79,7 @@ Once the building, training, and testing proceedures have been successfully comp
 
 ### Which model has a lower loss?
 
-The LSTM Stock Predictor Using Closing Prices has a lower loss of 0.0156 compared to 0.1383 using the LSTM Stock Predictor Using Fear and Greed Index.
+The LSTM Stock Predictor Using Closing Prices has a lower loss of 0.0156 compared to 0.1383 using the LSTM Stock Predictor Using Fear and Greed Index. In addition, using a smaller window size of 1 for the LSTM Stock Predictor Using Closing Prices has even a lower loss of 0.0049
 
 ### Which model tracks the actual values better over time?
 
@@ -91,11 +91,11 @@ The LSTM Stock Predictor Using Closing Prices tracks the actual values better ov
 A smaller window size of 1 works best for the LSTM Stock Predictor Using Closing Prices as the model has a lower loss 
 and tracks the actual values much closer. See chart below:
 
-![closing_prices_window_1](/blob/master/images/colsoing_prices_window_1.png)
+![closing_prices_window_1](/tree/master/images/colsoing_prices_window_1.png)
 
-![closing_prices_window_10](/blob/master/images/colsoing_prices_window_10.png)
+![closing_prices_window_10](/tree/master/images/colsoing_prices_window_10.png)
 
-![fng_chart](/blob/master/images/fng_chart.png)
+![fng_chart](/tree/master/images/fng_chart.png)
 
 
 
