@@ -93,11 +93,7 @@ and tracks the actual values much closer. See chart below:
 
 
 
-![fng_model](images/fng_chart.png)
-
-![closing_price](images/closing_price_window_10.png)
-
-![closing_price_window_1](images/closing_prices_window1.png)
+![LSTM_CP_Window-1.png](attachment:1e78e588-3c45-4d77-b7fd-5bdebeb91696.png)![LSTM_CP_Window-10.png](attachment:528f8396-3696-4650-b7ad-66a5cd3ab2da.png)
 
 
 
