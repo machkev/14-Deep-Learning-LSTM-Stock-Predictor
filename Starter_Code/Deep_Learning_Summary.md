@@ -93,7 +93,8 @@ The LSTM Stock Predictor Using Closing Prices tracks the actual values better ov
 A smaller window size of 1 works best for the LSTM Stock Predictor Using Closing Prices as the model has a lower loss 
 and tracks the actual values much closer. See chart below:
 
-![closing_prices_window_1.png](attachment:1e78e588-3c45-4d77-b7fd-5bdebeb91696.png)![closing_prices_window_10.png](attachment:528f8396-3696-4650-b7ad-66a5cd3ab2da.png)
+![Closing_Prices_window_1](Deep-Learning-LSTM-Stock-Predictor/Starter_Code/closing_prices_window_1.png)
+![Closing_Prices_window_10](Deep-Learning-LSTM-Stock-Predictor/Starter_Code/closing_prices_window_10.png)
 
 
 
